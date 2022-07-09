@@ -1,0 +1,57 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection
+        div Welcome to The allInOne Food  
+        div.small Eat Sleep food Repeat
+
+    #services
+    h2 Our Services
+    section#missionSection
+        div.card
+            h3 Food Cathering
+            div.card-box
+                div.card-img
+                    img(src="/static/pizzaimage.jpg")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rerum iusto quia iste, voluptatibus saepe expedita molestias ut consequatur omnis soluta consectetur velit, hic ducimus qui non earum quam repellat voluptates molestiae consequuntur inventore dolores, explicabo eum? Debitis, tempora perferendis?
+        div.card
+            h3 Bulk Oredering
+            div.card-box
+                div.card-img
+                    img(src="/static/bulkfood.jpg")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci enim cum obcaecati laudantium dicta porro blanditiis est assumenda aliquid expedita, ipsum iste iusto cumque quibusdam doloremque facilis minima! Autem quis voluptatibus distinctio deserunt ipsum alias. Aliquid deleniti eligendi optio dolores! 
+        div.card
+            h3 Food Delivery
+            div.card-box
+                div.card-img
+                    img(src="/static/fooddeliveryimage.jpg")
+                div.card-content
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, placeat? Quasi maxime corrupti commodi consequuntur totam laudantium, at rerum blanditiis placeat eligendi provident debitis dolorum ut voluptatem cumque reiciendis fugit nisi tempora facere dolorem! Illum at rem corporis distinctio optio.
+
+
+    section#sponsorsSection
+        h2 LINKS : -
+        div#sponsors
+            a(href='http://swiggy.com' target='_blank')
+                img(src='/static/swiggylogo.png' alt='Our Clients' class = 'spImage')
+            a(href='http://zomato.com' target='_blank')
+                img(src='/static/zomatologo.png' alt='Our Clients' class = 'spImage')
+            a(href='http://ubereats.com' target='_blank')
+                img(src='/static/ubereatslogo.png' alt='Our Clients' class = 'spImage')
+            a(href='http://dominos.com' target='_blank')
+                img(src='/static/dominoslogo.png' alt='Our Clients' class = 'spImage')
+            a(href='http://kfc.co.in' target='_blank')
+                img(src='/static/kfclogo.jpg' alt='Our Clients' class = 'spImage')
+            a(href='http://mcdonalds.com' target='_blank')
+                img(src='/static/mcdlogo.png' alt='Our Clients' class = 'spImage')
+            a(href='http://subway.com' target='_blank')
+                img(src='/static/subwaylogo.png' alt='Our Clients' class = 'spImage')

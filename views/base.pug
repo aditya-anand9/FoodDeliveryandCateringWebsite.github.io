@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title allInOne Food 
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/mainlogo.png")
+                | allInOne Food  
+            li #[a(href="/") Home]
+            li #[a(href="#services") Services]
+            li #[a(href="#sponsorsSection") Our Clients]
+            li #[a(href="/contact") Contact Us]
+            
+    block content
+    footer#footer
+        | Copyright © 2020 allInOne Food .com | All rights reserved
